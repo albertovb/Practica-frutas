@@ -1,0 +1,179 @@
+/* Creado por Alberto Vidal */
+html {
+  font-family: sans-serif;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.ficha {
+  border: black 2px solid;
+  margin: 10px;
+}
+
+article p {
+  margin: 0;
+  padding: 5px;
+}
+
+p.texto1 {
+  text-align: center;
+}
+
+p.texto2 {
+  padding: 5px 0;
+  background-color: lightgray;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.texto3 {
+  text-align: justify;
+}
+
+article.ej11 p.texto3 {
+  width: 200px;
+  margin: 10px;
+  border: black 2px solid;
+}
+
+article.ej12 {
+  justify-content: space-around;
+}
+
+article.ej12 p.texto3 {
+  width: 200px;
+  margin: 10px;
+  border: black 2px solid;
+}
+
+article.ej13 {
+  align-items: center;
+}
+
+article.ej13 p.texto3 {
+  width: 200px;
+  margin: 10px;
+  border: black 2px solid;
+}
+
+article.ej21 div.ficha {
+  width: 200px;
+}
+
+article.ej22 {
+  align-items: center;
+}
+
+article.ej22 div.ficha {
+  width: 200px;
+}
+
+article.ej22 p.texto2 {
+  border-bottom: black 2px solid;
+}
+
+article.ej23 div.ficha {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+}
+
+article.ej23 p.texto1 {
+  font-size: 400%;
+}
+
+article.ej24 {
+  align-items: center;
+}
+
+article.ej24 div.ficha {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+}
+
+article.ej24 p.texto1 {
+  border-right: black 2px solid;
+  font-size: 400%;
+}
+
+article.ej24 p.texto3 {
+  background-color: lightgray;
+}
+
+article.ej25 div.ficha {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  background-color: lightgray;
+}
+
+article.ej25 p.texto1 {
+  border-right: black 2px solid;
+  font-size: 400%;
+  background-color: white;
+}
+
+article.ej25 p.texto2 {
+  flex-grow: 1;
+  align-self: center;
+}
+
+article.ej31 div.ficha {
+  width: 200px;
+}
+
+article.ej31 p.texto1 {
+  font-size: 600%;
+  text-align: center;
+}
+
+article.ej32 div.ficha {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+article.ej32 div.parte {
+  display: flex;
+  flex-direction: column;
+  border-left: black 2px solid;
+}
+
+article.ej32 p.texto1 {
+  font-size: 600%;
+  align-self: center;
+}
+
+article.ej32 p.texto2 {
+  border-bottom: black 2px solid;
+}
+
+article.ej33 div.ficha {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+article.ej33 div.parte {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+}
+
+article.ej33 p.texto1 {
+  font-size: 400%;
+  border-bottom: black 2px solid;
+  border-right: black 2px solid;
+  border-bottom-right-radius: 10px;
+}
+
+article.ej33 p.texto2 {
+  align-self: center;
+  align-content: center;
+}
